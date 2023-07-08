@@ -26,7 +26,7 @@ library(gbm)
 
 pdf("plots.pdf")
 
-Inventory<-read_xlsx("09_Inventory.xlsx")
+Inventory<-read_xlsx("Inventory_data_frame.xlsx")
 dim(Inventory)
 
 Inventory<-as.data.frame(Inventory)
